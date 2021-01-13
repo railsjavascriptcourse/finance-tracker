@@ -123,27 +123,15 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-<<<<<<< 024637742ed21153db17830bc21b09788ab0fbf8
-    mini_portile2 (2.5.0)
-    minitest (5.14.1)
-    money (6.13.7)
-=======
     minitest (5.14.3)
     money (6.13.8)
->>>>>>> Addressing security vulnerability
       i18n (>= 0.6.4, <= 2)
     money_helper (1.0.2)
       activesupport
       money (~> 6.5)
     multipart-post (2.1.1)
-<<<<<<< 024637742ed21153db17830bc21b09788ab0fbf8
-    nio4r (2.5.2)
-    nokogiri (1.11.0)
-      mini_portile2 (~> 2.5.0)
-=======
     nio4r (2.5.4)
     nokogiri (1.11.1-x86_64-darwin)
->>>>>>> Addressing security vulnerability
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
