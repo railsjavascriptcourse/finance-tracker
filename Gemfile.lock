@@ -65,7 +65,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     commonjs (0.2.7)
-    concurrent-ruby (1.1.7)
+    concurrent-ruby (1.1.10)
     crass (1.0.6)
     devise (4.7.3)
       bcrypt (~> 3.0)
@@ -86,10 +86,10 @@ GEM
     ffi (1.14.2)
     font-awesome-rails (4.7.0.6)
       railties (>= 3.2, < 6.2)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
+    globalid (1.0.1)
+      activesupport (>= 5.0)
     hashie (4.1.0)
-    i18n (1.8.7)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     iex-ruby-client (1.4.0)
       faraday (>= 0.17)
@@ -123,7 +123,7 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    minitest (5.14.3)
+    minitest (5.17.0)
     money (6.13.8)
       i18n (>= 0.6.4, <= 2)
     money_helper (1.0.2)
@@ -132,6 +132,8 @@ GEM
     multipart-post (2.1.1)
     nio4r (2.5.4)
     nokogiri (1.11.1-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.2.3)
@@ -212,7 +214,7 @@ GEM
       execjs (~> 2.7)
       less-rails (~> 2.8, >= 2.8.0)
       railties (~> 5.0, >= 5.0.1)
-    tzinfo (1.2.9)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -231,6 +233,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   byebug
